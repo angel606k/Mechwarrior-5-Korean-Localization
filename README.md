@@ -22,7 +22,7 @@
 
 ## ※멕워리어5 한글패치 참여방법
 ### [멕워리어5 한글패치 스프레드시트](https://docs.google.com/spreadsheets/d/1wsApuxcBJIi7p4p7p4AkVqx9v3-axuONpd8sKDd26Rg/edit#gid=0)
-### 디스코드: https://discord.gg/yCbVMMN422 에 접속하셔서 확인 부탁드립니다!
+### 디스코드: https://discord.gg/c5MeTpQ8D6 에 접속하셔서 확인 부탁드립니다!
 
 ## 1. 테스트 패치 다운로드 및 적용방법 (추후 모드는 스팀 창작마당에 등록 예정입니다.)
 
