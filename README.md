@@ -28,7 +28,7 @@
 
 <!-- 1. 아래 링크로 이동하여 테스트 패치 파일을 다운로드 합니다. -->
 1. [Release](https://github.com/angel606k/MechwarriorOnline-Korean-Localization/releases)에 있는 최신버전의 한글패치를 다운로드 합니다.<br>
-(※ Mechwarrior-5-Korean-Mod_<버전>.zip 파일을 다운로드 합니다.)<br>
+(※ Mechwarrior-5-Korean-Mod_<버전>.zip 파일을 다운로드 합니다. <b>(스팀 창작마당에서 모드를 구독하였을시 다운로드가 불필요합니다.)</b>)<br>
 (※ Mechwarrior-5-Korean-Language_<버전>.zip 파일을 다운로드 합니다.)<br>
 (※ Source code 의 다운로드는 불필요 합니다.)
 2. 맥워리어5가 설치된 디렉터리 (일반적으로 `C:\Program files\Steam\steamapps\common\MechWarrior 5 Mercenaries`)로 이동합니다.
