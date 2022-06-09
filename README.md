@@ -25,14 +25,13 @@
 ### 디스코드: https://discord.gg/c5MeTpQ8D6 에 접속하셔서 확인 부탁드립니다!
 
 ## 1. 테스트 패치 다운로드 및 적용방법
-### (스팀 창작마당에서 모드를 구독하였을시 모드파일의 다운로드는 불필요합니다.)
+### ([「`스팀 창작마당`](https://steamcommunity.com/sharedfiles/filedetails/?id=2518884137)에서 모드를 구독하였을시 모드파일의 다운로드는 불필요합니다.)
 <!-- 1. 아래 링크로 이동하여 테스트 패치 파일을 다운로드 합니다. -->
 1. [Release](https://github.com/angel606k/Mechwarrior-5-Korean-Localization/releases)에 있는 최신버전의 한글패치를 다운로드 합니다.<br>
 (※ Mechwarrior-5-Korean-Mod_<버전>.zip 파일을 다운로드 합니다.)<br>
-(※ Mechwarrior-5-Korean-Language_<버전>.zip 파일을 다운로드 합니다.)<br>
 (※ Source code 의 다운로드는 불필요 합니다.)
 2. 맥워리어5가 설치된 디렉터리 (일반적으로 `C:\Program files\Steam\steamapps\common\MechWarrior 5 Mercenaries`)로 이동합니다.
-3. 다운로드 한 모드파일 (Mechwarrior-5-Korean-Mod_<버전>.zip)을 `\MW5Mercs\Mods` 에 압축 해제합니다. (Mods 폴더가 없으시면 새 폴더를 작성 후 압축해제)
+3. 다운로드 한 모드파일 [「`Mechwarrior-5-Korean-Mod_<버전>.zip`」](https://github.com/angel606k/Mechwarrior-5-Korean-Localization/blob/master/Build/Korean%20Localization%20Mod%20V1.0.zip))을 `\MW5Mercs\Mods` 에 압축 해제합니다. (Mods 폴더가 없으시면 새 폴더를 작성 후 압축해제)
   (※ Mods 폴더 이하에 Korean 폴더가 존재하여야 정상입니다.)
 4. 다운로드 한 언어파일 (Mechwarrior-5-Korean-Language_<버전>.zip)을 `\MW5Mercs\Content` 에 압축 해제합니다.
   (※ Content 폴더 이하에 Localization 폴더가 존재햐여야 정상입니다.)
