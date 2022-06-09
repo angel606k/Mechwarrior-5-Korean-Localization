@@ -31,7 +31,7 @@
 (※ Mechwarrior-5-Korean-Mod_<버전>.zip 파일을 다운로드 합니다.)<br>
 (※ Source code 의 다운로드는 불필요 합니다.)
 2. 맥워리어5가 설치된 디렉터리 (일반적으로 `C:\Program files\Steam\steamapps\common\MechWarrior 5 Mercenaries`)로 이동합니다.
-3. 다운로드 한 모드파일 [「`Mechwarrior-5-Korean-Mod_<버전>.zip`」](https://github.com/angel606k/Mechwarrior-5-Korean-Localization/blob/master/Build/Korean%20Localization%20Mod%20V1.0.zip))을 `\MW5Mercs\Mods` 에 압축 해제합니다. (Mods 폴더가 없으시면 새 폴더를 작성 후 압축해제)
+3. 다운로드 한 모드파일 [「`Mechwarrior-5-Korean-Mod_<버전>.zip`」](https://github.com/angel606k/Mechwarrior-5-Korean-Localization/tree/master/Build))을 `\MW5Mercs\Mods` 에 압축 해제합니다. (Mods 폴더가 없으시면 새 폴더를 작성 후 압축해제)
   (※ Mods 폴더 이하에 Korean 폴더가 존재하여야 정상입니다.)
 4. 다운로드 한 언어파일 (Mechwarrior-5-Korean-Language_<버전>.zip)을 `\MW5Mercs\Content` 에 압축 해제합니다.
   (※ Content 폴더 이하에 Localization 폴더가 존재햐여야 정상입니다.)
