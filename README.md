@@ -25,7 +25,9 @@
 ### 디스코드: https://discord.gg/c5MeTpQ8D6 에 접속하셔서 확인 부탁드립니다!
 
 ## 1. 테스트 패치 다운로드 및 적용방법
-### ([「`스팀 창작마당`」](https://steamcommunity.com/sharedfiles/filedetails/?id=2518884137)에서 모드를 구독하였을시 모드파일의 다운로드는 불필요합니다.)
+### 스팀판
+1. [「`스팀워크샵`」](https://steamcommunity.com/sharedfiles/filedetails/?id=2518884137)에서 해당 모드를 구독합니다.
+### 이외 버전
 <!-- 1. 아래 링크로 이동하여 테스트 패치 파일을 다운로드 합니다. -->
 1. [Release](https://github.com/angel606k/Mechwarrior-5-Korean-Localization/releases/latest)에 있는 최신버전의 한글패치를 다운로드 합니다.<br>
 (※ Mechwarrior-5-Korean-Language_<버전>.zip 파일을 다운로드 합니다.)<br>
