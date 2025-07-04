@@ -1,0 +1,23 @@
+{
+   "displayName" : "Korean Localization_V1.0",
+   "version" : "1.0",
+   "buildNumber" : 11,
+   "description" : "\uD55C\uAE00\uD328\uCE58 \uD14C\uC2A4\uD2B8 \uBC84\uC804\r\nkorea patch test version\r\n\r\nkorean Localization URL\r\nhttps://gall.dcinside.com/mgallery/board/view/?id=mwo&no=3619&page=1\r\n\r\n\u203B Please Help Translate Work!! \u203B\r\n\r\nKorean Localization File Download URL\r\nhttps://github.com/angel606k/Mechwarrior-5-Korean-Localization\r\n\r\n\u203B Please Help Translate Work!! \u203B\r\n\r\nVersion 1.0\r\n\r\nThanks for Help Translation\r\n[DCInside BattleMech - MechWarrior Gallary]\r\n\r\nSpecial Thanks: et",
+   "author" : "Tari_Tomo",
+   "authorURL" : "https://github.com/angel606k/Mechwarrior-5-Korean-Localization",
+   "defaultLoadOrder" : 0,
+   "gameVersion" : "1.1.0",
+   "manifest" : [
+      "/Game/InnerSphereData/sername.uasset",
+      "/Game/UI/Font/Futura/Futura_Book.uasset",
+      "/Game/UI/Font/Futura/Futura_Heavy.uasset",
+      "/Game/UI/Font/Futura/Futura_Medium.uasset",
+      "/Game/UI/Font/Roboto/Roboto-Black.uasset",
+      "/Game/UI/Font/Roboto/Roboto-Regular.uasset",
+      "/Game/UI/Font/Roboto_Condensed/RobotoCondensed-Bold.uasset",
+      "/Game/UI/Font/Roboto_Condensed/RobotoCondensed-Regular.uasset"
+   ],
+   "steamPublishedFileId" : 2518884137,
+   "steamLastSubmittedBuildNumber" : 10,
+   "steamModVisibility" : "Public"
+}

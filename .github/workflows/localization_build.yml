@@ -1,0 +1,55 @@
+name: localization_build
+
+on:
+    workflow_dispatch:
+
+jobs:
+    run:
+        if: github.ref == 'refs/heads/localization-build-actions'
+        runs-on: windows-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v3
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: "3.11"
+
+            - name: Install dependencies
+              run: pip install gspread oauth2client
+
+            - name: Restore credentials.json
+              run: |
+                echo "${{ secrets.GOOGLE_CREDS_BASE64 }}" > encoded.txt
+                certutil -decode encoded.txt credentials.json
+
+            - name: Save Google Sheet to Txt
+              run: python .\.github\script\google_sheet_to_txt.py
+
+            - name: Build Localization Release File
+              shell: cmd
+              run: |
+                move .\.github\script\Game_Release.locres.txt .\.github\build\Korean\
+                .\.github\build\UE4localizationsTool.v2.7\UE4localizationsTool.exe import .\.github\build\Korean\Game_Release.locres.txt
+                copy .\.github\build\Korean\Game_Release_NEW.locres .\.github\build\Localization\Game\ko-KR\Game.locres
+            
+            - name: Build Localization Debug File
+              shell: cmd
+              run: |
+                move .\.github\script\Game_Debug.locres.txt .\.github\build\Korean\
+                .\.github\build\UE4localizationsTool.v2.7\UE4localizationsTool.exe import .\.github\build\Korean\Game_Debug.locres.txt
+                copy .\.github\build\Korean\Game_Debug_NEW.locres .\.github\build\Localization\Game\ko-KP\Game.locres
+            
+            - name: Create Zip File
+              run: |
+                $now = Get-Date -Uformat "%Y%m%d"
+                echo "NOW=$now" >> $env:GITHUB_ENV
+                powershell Compress-Archive -Path .\.github\build\Localization\ -DestinationPath Localization_$now.zip
+            
+            - name: Upload result
+              uses: actions/upload-artifact@v4
+              with:
+                name: Mechwarrior-5-Korean-Localization_Github-Actions-Build_${{ env.NOW }}
+                path: Localization_${{ env.NOW }}.zip
