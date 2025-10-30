@@ -44,7 +44,7 @@
 ・여러분들의 도움이 절실합니다!<br>
 ### 「게임이 버전업 됨에 따라 번역문도 추가 예정입니다.」
 
-[![멕워리어 5 번역](./screenshots/dcgall.jpg)](https://docs.google.com/spreadsheets/d/1RD3esK3-avSUXc6iZUlXWHvV5VNbbtNsFOKaQUcQOWg/edit#gid=145009810)
+[![멕워리어 5 번역](./screenshots/dcgall.jpg)](https://docs.google.com/spreadsheets/d/1ESSVLUUrMF8etYM5_d5iWWtLyQp8_n8O_07Shvt5yN0/edit?usp=sharing)
 
 ## 스크린샷
 ![한글패치 적용 스크린샷 1](./screenshots/1.png)
